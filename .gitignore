@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Generated MNIST data — regenerate with: python data/mnist/prepare.py
+data/mnist/raw/
+data/mnist/*.bin
+data/mnist/meta.pkl

@@ -1,0 +1,8 @@
+# Python 3.11. Install:  pip install -r requirements.txt
+# CPU-only is all this exercise needs (works on macOS and Linux).
+#   macOS: the default wheel is already CPU-only -- nothing extra to do.
+#   Linux: force the CPU build so pip doesn't pull CUDA:
+#     pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
+numpy
+requests
